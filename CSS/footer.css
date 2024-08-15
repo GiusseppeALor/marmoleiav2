@@ -1,99 +1,134 @@
-:root {
-    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
-    --marmol-beige: #D4C2A5;   /* Beige mármol */
-    --gris-claro: #B8B8B8;     /* Gris claro */
-    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
-    --blanco-puro: #FFFFFF;    /* Blanco puro */
-    --gris-medio: #A0A0A0;     /* Gris medio */
+.footer-exagerado {
+    background-color: var(--gris-oscuro);
+    color: var(--blanco-puro);
+    padding: 50px 20px;
+    border-top: 5px solid var(--marmol-beige);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--marmol-blanco); /* Mármol Blanco */
+.footer-exagerado::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: var(--marmol-beige);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.2;
+    animation: float 8s ease-in-out infinite;
 }
 
-footer {
-    background-color: var(--gris-oscuro); /* Gris oscuro */
-    color: var(--blanco-puro); 
-    padding: 20px 0;
+.footer-exagerado::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: var(--marmol-beige);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.2;
+    animation: float 8s ease-in-out infinite;
+    animation-delay: 4s;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
     text-align: center;
 }
 
 .footer-column {
     flex: 1;
-    padding: 10px 20px;
-    margin: 0 10px;
+    padding: 20px;
 }
 
 .footer-column h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: var(--blanco-puro); /* Blanco puro */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--marmol-beige);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .footer-column p {
-    margin: 5px 0;
-    color: var(--marmol-blanco); /* Mármol Blanco */
+    margin: 10px 0;
+    color: var(--marmol-blanco);
+    font-size: 1.1rem;
 }
 
 .footer-column a {
-    color: var(--blanco-puro); /* Blanco puro */
+    color: var(--blanco-puro);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .footer-column a:hover {
+    color: var(--marmol-beige);
     text-decoration: underline;
 }
 
-.footer-column i {
-    font-size: 1.5em;
-    margin: 0 10px;
-    color: var(--marmol-blanco); /* Mármol Blanco */
+.metodo-pago-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.footer-column i:hover {
-    color: var(--marmol-beige); /* Mármol Beige */
+.metodo-pago {
+    height: 80px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.metodo-pago:hover {
+    transform: scale(1.1);
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 1.8rem;
+    margin: 0 15px;
+    color: var(--marmol-blanco);
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: var(--marmol-beige);
 }
 
 .footer-bottom {
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    border-top: 1px solid var(--blanco-puro); /* Blanco puro */
+    padding: 20px 0;
+    margin-top: 100px;
+    border-top: 2px solid var(--blanco-puro);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .footer-bottom p {
     margin: 0;
-    font-size: 0.9em;
-    color: var(--marmol-blanco); /* Mármol Blanco */
+    font-size: 1rem;
+    color: var(--marmol-blanco);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-#main-footer::before, #main-footer::after {
-    content: '';
-    position: absolute;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    animation: float 6s ease-in-out infinite;
-}
-.metodo-pago{
-    height: 69px;
-    margin-right: -50%;
-}
-
-.metodo-pago2{
-    height: 100px;
-    width: 500px;
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 @media (max-width: 768px) {
@@ -103,6 +138,10 @@ footer {
     }
 
     .footer-column {
-        margin: 10px 0;
+        margin: 20px 0;
+    }
+
+    .footer-column h2 {
+        font-size: 1.5rem;
     }
 }
