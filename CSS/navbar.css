@@ -1,0 +1,56 @@
+:root {
+    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
+    --marmol-beige: #D4C2A5;   /* Beige mármol */
+    --gris-claro: #B8B8B8;     /* Gris claro */
+    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
+    --blanco-puro: #FFFFFF;    /* Blanco puro */
+    --gris-medio: #A0A0A0;     /* Gris medio */
+}
+
+header {
+    background-color: var(--gris-oscuro); /* Gris oscuro */
+    color: var(--marmol-beige); /* Beige mármol */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--marmol-beige); /* Beige mármol */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+        padding: 10px 0;
+    }
+}
