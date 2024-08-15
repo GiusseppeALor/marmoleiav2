@@ -46,31 +46,34 @@ nav a:hover {
     color: var(--gris-claro);  /* Gris claro */
 }
 
-section {
-    margin-bottom: 2rem;
-}
-
-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-iframe {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Centrando el container y agrandando la imagen */
 .section-centrada .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.imagen-agrandada {
+.img-agrandada {
     width: 100%;
-    max-width: 500px; /* Ajusta este valor según sea necesario */
+    max-width: 600px; /* Ajusta según sea necesario */
+    height: auto;
+}
+
+/* Mejorando el texto */
+.text-mejorado {
+    font-family: 'Georgia', serif;
+    color: #081c15;
+    line-height: 1.6;
+}
+
+.text-mejorado h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2d6a4f;
+}
+
+.text-mejorado p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Animaciones */
@@ -78,13 +81,6 @@ iframe {
     opacity: 0;
     transform: translateX(-50px);
     animation: aparecer 1s forwards;
-}
-
-.animacion-container .col-md-6 {
-    opacity: 0;
-    transform: translateX(-50px);
-    animation: aparecer 1s forwards;
-    animation-delay: 0.5s;
 }
 
 @keyframes aparecer {
