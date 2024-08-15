@@ -1,34 +1,49 @@
+/* Variables de colores */
+:root {
+    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
+    --marmol-beige: #D4C2A5;   /* Beige mármol */
+    --gris-claro: #B8B8B8;     /* Gris claro */
+    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
+    --blanco-puro: #FFFFFF;    /* Blanco puro */
+    --gris-medio: #A0A0A0;     /* Gris medio */
+}
+
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
+    background-color: var(--marmol-blanco); /* Fondo blanco mármol */
+    color: var(--gris-oscuro);  /* Texto gris oscuro */
 }
 
 header {
-    background-color: #081c15;
+    background-color: var(--gris-medio); /* Gris medio */
     padding: 1rem;
 }
 
 header h1 {
     font-size: 2rem;
+    color: var(--blanco-puro);  /* Texto blanco puro */
 }
 
 footer {
-    background-color: #1b4332;
+    background-color: var(--gris-oscuro); /* Gris oscuro */
     padding: 1rem;
+    color: var(--blanco-puro);  /* Texto blanco puro */
 }
 
 h1, h2, h3, h4 {
-    color: #2d6a4f;
+    color: var(--gris-oscuro); /* Gris oscuro */
 }
 
 nav a {
-    color: #95d5b2;
+    color: var(--marmol-beige); /* Beige mármol */
     margin: 0 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #74c69d;
+    color: var(--gris-claro);  /* Gris claro */
 }
 
 section {
@@ -38,6 +53,8 @@ section {
 section img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 iframe {

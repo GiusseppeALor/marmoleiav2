@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0; /* Mármol Blanco */
+}
+
+footer {
+    background-color: #2C3E50; /* Azul Marino */
+    color: #FFFFFF; 
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.footer-column h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff; /* Mármol Beige */
+}
+
+.footer-column p {
+    margin: 5px 0;
+    color: #F0F0F0; /* Mármol Blanco */
+}
+
+.footer-column a {
+    color: #FFFFFF; /* Blanco */
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-column i {
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: #F0F0F0; /* Mármol Blanco */
+}
+
+.footer-column i:hover {
+    color: #D4C2A5; /* Mármol Beige */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #FFFFFF; /* Blanco */
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #F0F0F0; /* Mármol Blanco */
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        margin: 10px 0;
+    }
+}
