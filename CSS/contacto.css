@@ -8,13 +8,17 @@
 }
 
 .contacto {
-    background-color:var(--marmol-blanco); /* Beige mármol */
+    background-color:#c2c2c2; /* Beige mármol */
     color: var(--gris-oscuro); /* Gris oscuro */
     padding: 40px 0;
     text-align: center;
     margin-top: 20px;
     position: relative;
     overflow: hidden;
+}
+
+.contactanos{
+    background-color: #c2c2c2;
 }
 
 .container {
@@ -51,6 +55,14 @@
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
     background-color: #52b788; /* Mármol Blanco */
     color: var(--gris-oscuro); /* Gris oscuro */
+}
+
+#main-footer::before, #main-footer::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
 }
 
 .btn-whatsapp i {
