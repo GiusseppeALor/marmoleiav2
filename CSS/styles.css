@@ -77,7 +77,7 @@ nav a:hover {
 /* Bienvenidos */
 .hero-section {
     position: relative;
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.SUG0WYdODdJfAux-rtt6nAHaEA&pid=Api&P=0&h=180'); /* Reemplaza 'fondo-marmoleria.jpg' con la ruta de tu imagen */
+    background-image: url('https://images.unsplash.com/photo-1599600540907-62e9b06e6597?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fHw%3D'); /* Reemplaza 'fondo-marmoleria.jpg' con la ruta de tu imagen */
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
