@@ -1,13 +1,22 @@
+:root {
+    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
+    --marmol-beige: #D4C2A5;   /* Beige mármol */
+    --gris-claro: #B8B8B8;     /* Gris claro */
+    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
+    --blanco-puro: #FFFFFF;    /* Blanco puro */
+    --gris-medio: #A0A0A0;     /* Gris medio */
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F0F0F0; /* Mármol Blanco */
+    background-color: var(--marmol-blanco); /* Mármol Blanco */
 }
 
 footer {
-    background-color: #2C3E50; /* Azul Marino */
-    color: #FFFFFF; 
+    background-color: var(--gris-oscuro); /* Gris oscuro */
+    color: var(--blanco-puro); 
     padding: 20px 0;
 }
 
@@ -30,16 +39,16 @@ footer {
 .footer-column h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #ffffff; /* Mármol Beige */
+    color: var(--blanco-puro); /* Blanco puro */
 }
 
 .footer-column p {
     margin: 5px 0;
-    color: #F0F0F0; /* Mármol Blanco */
+    color: var(--marmol-blanco); /* Mármol Blanco */
 }
 
 .footer-column a {
-    color: #FFFFFF; /* Blanco */
+    color: var(--blanco-puro); /* Blanco puro */
     text-decoration: none;
 }
 
@@ -50,24 +59,24 @@ footer {
 .footer-column i {
     font-size: 1.5em;
     margin: 0 10px;
-    color: #F0F0F0; /* Mármol Blanco */
+    color: var(--marmol-blanco); /* Mármol Blanco */
 }
 
 .footer-column i:hover {
-    color: #D4C2A5; /* Mármol Beige */
+    color: var(--marmol-beige); /* Mármol Beige */
 }
 
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-    border-top: 1px solid #FFFFFF; /* Blanco */
+    border-top: 1px solid var(--blanco-puro); /* Blanco puro */
 }
 
 .footer-bottom p {
     margin: 0;
     font-size: 0.9em;
-    color: #F0F0F0; /* Mármol Blanco */
+    color: var(--marmol-blanco); /* Mármol Blanco */
 }
 
 @media (max-width: 768px) {
