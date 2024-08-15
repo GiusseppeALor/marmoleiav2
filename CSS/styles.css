@@ -77,18 +77,20 @@ nav a:hover {
 /* Bienvenidos */
 .hero-section {
     position: relative;
-    background-image: url('img/marmol-background.jpg'); 
+    background-image: url(''); /* Reemplaza 'fondo-marmoleria.jpg' con la ruta de tu imagen */
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
     color: #ffffff;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Sombra para hacer que el texto resalte */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Sombra para que el texto resalte */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para el contenedor */
     overflow: hidden;
     z-index: 1;
 }
 
 .hero-overlay {
-    background: rgba(8, 28, 21, 0.7); /* Superposición oscura para mejorar la legibilidad */
+    background: rgba(8, 28, 21, 0.6); /* Superposición oscura para mejorar la legibilidad */
     padding: 40px;
     border-radius: 15px;
     animation: fadeIn 2s ease-in-out; /* Animación de entrada */
