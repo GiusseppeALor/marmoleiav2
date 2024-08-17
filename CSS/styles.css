@@ -1,48 +1,48 @@
 :root {
-    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
-    --marmol-beige: #D4C2A5;   /* Beige mármol */
-    --gris-claro: #B8B8B8;     /* Gris claro */
-    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
-    --blanco-puro: #FFFFFF;    /* Blanco puro */
-    --gris-medio: #A0A0A0;     /* Gris medio */
+    --marmol-blanco: #F0F0F0; 
+    --marmol-beige: #D4C2A5;  
+    --gris-claro: #B8B8B8;     
+    --gris-oscuro: #4A4A4A;  
+    --blanco-puro: #FFFFFF;    
+    --gris-medio: #A0A0A0;    
 }
 
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: var(--marmol-blanco); /* Fondo blanco mármol */
-    color: var(--gris-oscuro);  /* Texto gris oscuro */
+    background-color: var(--marmol-blanco); 
+    color: var(--gris-oscuro);  
 }
 
 header {
-    background-color: var(--gris-medio); /* Gris medio */
+    background-color: var(--gris-medio); 
     padding: 1rem;
 }
 
 header h1 {
     font-size: 2rem;
-    color: var(--blanco-puro);  /* Texto blanco puro */
+    color: var(--blanco-puro);  
 }
 
 footer {
-    background-color: var(--gris-oscuro); /* Gris oscuro */
+    background-color: var(--gris-oscuro); 
     padding: 1rem;
-    color: var(--blanco-puro);  /* Texto blanco puro */
+    color: var(--blanco-puro); 
 }
 
 h1, h2, h3, h4 {
-    color: var(--gris-oscuro); /* Gris oscuro */
+    color: var(--gris-oscuro);
 }
 
 nav a {
-    color: var(--marmol-beige); /* Beige mármol */
+    color: var(--marmol-beige); 
     margin: 0 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: var(--gris-claro);  /* Gris claro */
+    color: var(--gris-claro); 
 }
 
 .section-centrada .container {
@@ -147,74 +147,86 @@ nav a:hover {
 
 /* Servicios */
 .services-section {
-    background-color: #eae2b7; /* Gris claro */
-    padding: 40px 20px;
-    color: var(--gris-oscuro); /* Gris oscuro */
+    background-color: var(--marmol-beige); 
+    padding: 50px 20px;
+    color: var(--gris-oscuro); 
+    text-align: center;
 }
 
 .containerservicio {
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .section-title {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: var(--gris-oscuro); /* Gris oscuro */
+    font-size: 2.8em;
+    color: var(--gris-oscuro);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: var(--gris-oscuro); 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .rowservicio {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.col-md-4 {
-    flex: 1;
-    max-width: 33.333%;
-    padding: 10px;
-    box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 .card-servicio {
-    background-color: var(--blanco-puro); /* Blanco puro */
-    padding: 20px;
+    background-color: var(--blanco-puro); 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    border: 2px solid var(--gris-oscuro);
 }
 
 .card-servicio:hover {
     transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 .card-servicio h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 10px;
-    color: var(--gris-oscuro); /* Gris oscuro */
+    color: var(--gris-oscuro); 
+    border-bottom: 2px solid var(--marmol-beige);
+    padding-bottom: 10px;
 }
 
 .card-servicio p {
-    font-size: 1em;
-    color: var(--gris-medio); /* Gris medio */
+    font-size: 1.1em;
+    color: var(--gris-medio); 
+    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
     .section-title {
-        font-size: 2em;
+        font-size: 2.2em;
     }
 
     .card-servicio h3 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .card-servicio p {
-        font-size: 0.9em;
-    }
-
-    .col-md-4 {
-        max-width: 100%;
+        font-size: 1em;
     }
 }

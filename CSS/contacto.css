@@ -1,15 +1,15 @@
 :root {
-    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
-    --marmol-beige: #D4C2A5;   /* Beige mármol */
-    --gris-claro: #B8B8B8;     /* Gris claro */
-    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
-    --blanco-puro: #FFFFFF;    /* Blanco puro */
-    --gris-medio: #A0A0A0;     /* Gris medio */
+    --marmol-blanco: #F0F0F0;  
+    --marmol-beige: #D4C2A5;   
+    --gris-claro: #B8B8B8;     
+    --gris-oscuro: #4A4A4A;    
+    --blanco-puro: #FFFFFF;   
+    --gris-medio: #A0A0A0;     
 }
 
 .contacto {
-    background-color:#c2c2c2; /* Beige mármol */
-    color: var(--gris-oscuro); /* Gris oscuro */
+    background-color:#c2c2c2; 
+    color: var(--gris-oscuro); 
     padding: 40px 0;
     text-align: center;
     margin-top: 20px;
@@ -29,22 +29,22 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: var(--gris-oscuro); /* Gris oscuro */
+    color: var(--gris-oscuro); 
 }
 
 .contacto-description {
     font-size: 1.25rem;
     margin-bottom: 2rem;
-    color: var(--gris-oscuro); /* Mármol Blanco */
+    color: var(--gris-oscuro); 
 }
 
 .btn-whatsapp {
-    background-color: #41e99a; /* Beige mármol */
-    border: 2px solid var(--marmol-blanco); /* Mármol Blanco */
+    background-color: #41e99a; 
+    border: 2px solid var(--marmol-blanco); 
     padding: 1rem 2.5rem;
     font-size: 1.5rem;
     border-radius: 50px;
-    color: var(--gris-oscuro); /* Gris oscuro */
+    color: var(--gris-oscuro); 
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -53,8 +53,8 @@
 .btn-whatsapp:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-    background-color: #52b788; /* Mármol Blanco */
-    color: var(--gris-oscuro); /* Gris oscuro */
+    background-color: #52b788; 
+    color: var(--gris-oscuro); 
 }
 
 #main-footer::before, #main-footer::after {
@@ -71,7 +71,7 @@
 
 .map-container {
     margin-top: 20px;
-    border: 2px solid var(--marmol-blanco); /* Mármol Blanco */
+    border: 2px solid var(--marmol-blanco); 
     border-radius: 8px;
     overflow: hidden;
 }

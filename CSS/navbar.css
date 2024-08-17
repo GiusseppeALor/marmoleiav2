@@ -1,10 +1,10 @@
 :root {
-    --marmol-blanco: #F0F0F0;  /* Blanco mármol */
-    --marmol-beige: #D4C2A5;   /* Beige mármol */
-    --gris-claro: #B8B8B8;     /* Gris claro */
-    --gris-oscuro: #4A4A4A;    /* Gris oscuro */
-    --blanco-puro: #FFFFFF;    /* Blanco puro */
-    --gris-medio: #A0A0A0;     /* Gris medio */
+    --marmol-blanco: #F0F0F0;  
+    --marmol-beige: #D4C2A5;   
+    --gris-claro: #B8B8B8;     
+    --gris-oscuro: #4A4A4A;    
+    --blanco-puro: #FFFFFF;    
+    --gris-medio: #A0A0A0;     
 }
 
 header {
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--marmol-beige); /* Beige mármol */
+    color: var(--marmol-beige); 
     text-decoration: none;
     font-size: 1.2em;
 }

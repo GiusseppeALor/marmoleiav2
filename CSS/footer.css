@@ -73,14 +73,14 @@
 
 .metodo-pago-container {
     display: flex;
-    justify-content: center; /* Centra los íconos de pago horizontalmente */
+    justify-content: center; 
     align-items: center;
-    gap: 30px; /* Espacio entre las imágenes */
+    gap: 30px; 
     margin-top: 20px;
 }
 
 .metodo-pago {
-    max-height: 60px; /* Ajusta la altura máxima */
+    max-height: 60px; 
     width: auto;
     transition: transform 0.3s ease;
 }
@@ -92,8 +92,8 @@
 .social-icons {
     margin-top: 15px;
     display: flex;
-    justify-content: center; /* Centra los íconos sociales horizontalmente */
-    gap: 20px; /* Espacio entre los íconos */
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .social-icons i {
@@ -149,10 +149,10 @@
 
     .metodo-pago-container {
         justify-content: space-around;
-        gap: 15px; /* Reduce el espacio entre las imágenes en pantallas pequeñas */
+        gap: 15px; 
     }
 
     .social-icons {
-        gap: 10px; /* Reduce el espacio entre los íconos sociales en pantallas pequeñas */
+        gap: 10px; 
     }
 }
