@@ -144,3 +144,78 @@ nav a:hover {
         opacity: 1;
     }
 }
+
+
+/* Servicios */
+.services-section {
+    background-color: var(--gris-claro); /* Gris claro */
+    padding: 40px 20px;
+    color: var(--gris-oscuro); /* Gris oscuro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: var(--gris-oscuro); /* Gris oscuro */
+}
+
+.rowservicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col-md-4 {
+    flex: 1;
+    max-width: 33.333%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-servicio {
+    background-color: var(--blanco-puro); /* Blanco puro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-servicio:hover {
+    transform: translateY(-10px);
+}
+
+.card-servicio h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--gris-oscuro); /* Gris oscuro */
+}
+
+.card-servicio p {
+    font-size: 1em;
+    color: var(--gris-medio); /* Gris medio */
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2em;
+    }
+
+    .card-servicio h3 {
+        font-size: 1.3em;
+    }
+
+    .card-servicio p {
+        font-size: 0.9em;
+    }
+
+    .col-md-4 {
+        max-width: 100%;
+    }
+}
