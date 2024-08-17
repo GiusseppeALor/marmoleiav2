@@ -45,35 +45,6 @@ nav a:hover {
     color: var(--gris-claro); 
 }
 
-.section-centrada .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.img-agrandada {
-    width: 100%;
-    background-color: var(--marmol-blanco);
-    max-width: 400px; 
-    height: auto;
-}
-
-.text-mejorado {
-    font-family: 'Georgia', serif;
-    color: #081c15;
-    line-height: 1.6;
-}
-
-.text-mejorado h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #2d6a4f;
-}
-
-.text-mejorado p {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-}
-
 /* Bienvenidos */
 .hero-section {
     position: relative;
@@ -112,6 +83,44 @@ nav a:hover {
     animation: fadeInUp 1.5s ease-out;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem; /* Reduce the font size */
+    }
+
+    .hero-subtitle {
+        font-size: 1rem; /* Reduce the font size */
+    }
+
+    .hero-overlay {
+        padding: 20px; /* Reduce padding */
+        border-radius: 8px; /* Adjust border radius */
+    }
+
+    .hero-section {
+        padding: 40px 15px; /* Adjust section padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.5rem; /* Further reduce font size */
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem; /* Further reduce font size */
+    }
+
+    .hero-overlay {
+        padding: 15px; /* Further reduce padding */
+    }
+
+    .hero-section {
+        padding: 30px 10px; /* Further adjust section padding */
+    }
+}
+
 /* Animaciones */
 @keyframes fadeIn {
     from {
@@ -143,6 +152,7 @@ nav a:hover {
         opacity: 1;
     }
 }
+
 
 
 /* Servicios */
@@ -228,5 +238,77 @@ nav a:hover {
 
     .card-servicio p {
         font-size: 1em;
+    }
+}
+
+/* Quienes somos */
+/* Estilos generales para la sección */
+.section-centrada {
+    padding: 2rem 0;
+}
+
+/* Ajustes para la imagen */
+.img-agrandada {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-animacion {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-animacion:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el texto */
+.text-mejorado h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.text-mejorado p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.text-mejorado h4 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .text-mejorado h3 {
+        font-size: 1.75rem;
+    }
+
+    .text-mejorado h4 {
+        font-size: 1.25rem;
+    }
+
+    .text-mejorado p {
+        font-size: 0.95rem;
+    }
+
+    .img-agrandada {
+        margin-bottom: 1rem;
+    }
+
+    .col-md-5,
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .img-agrandada {
+        max-width: 80%;
+        margin: 0 auto 1rem auto;
     }
 }
