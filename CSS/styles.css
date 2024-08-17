@@ -86,38 +86,38 @@ nav a:hover {
 /* Responsive Styles */
 @media (max-width: 768px) {
     .hero-title {
-        font-size: 2rem; /* Reduce the font size */
+        font-size: 2rem; 
     }
 
     .hero-subtitle {
-        font-size: 1rem; /* Reduce the font size */
+        font-size: 1rem; 
     }
 
     .hero-overlay {
-        padding: 20px; /* Reduce padding */
-        border-radius: 8px; /* Adjust border radius */
+        padding: 20px; 
+        border-radius: 8px; 
     }
 
     .hero-section {
-        padding: 40px 15px; /* Adjust section padding */
+        padding: 40px 15px; 
     }
 }
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 1.5rem; /* Further reduce font size */
+        font-size: 1.5rem; 
     }
 
     .hero-subtitle {
-        font-size: 0.9rem; /* Further reduce font size */
+        font-size: 0.9rem; 
     }
 
     .hero-overlay {
-        padding: 15px; /* Further reduce padding */
+        padding: 15px; 
     }
 
     .hero-section {
-        padding: 30px 10px; /* Further adjust section padding */
+        padding: 30px 10px; 
     }
 }
 
@@ -242,12 +242,10 @@ nav a:hover {
 }
 
 /* Quienes somos */
-/* Estilos generales para la sección */
 .section-centrada {
     padding: 2rem 0;
 }
 
-/* Ajustes para la imagen */
 .img-agrandada {
     max-width: 100%;
     height: auto;
@@ -261,7 +259,6 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* Estilos para el texto */
 .text-mejorado h3 {
     font-size: 2rem;
     font-weight: bold;
@@ -279,7 +276,6 @@ nav a:hover {
     margin-top: 1.5rem;
 }
 
-/* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
     .container {
         flex-direction: column-reverse;
