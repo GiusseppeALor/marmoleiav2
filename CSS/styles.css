@@ -152,7 +152,7 @@ nav a:hover {
     color: var(--gris-oscuro); /* Gris oscuro */
 }
 
-.container {
+.containerservicio {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
