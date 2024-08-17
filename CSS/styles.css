@@ -147,7 +147,7 @@ nav a:hover {
 
 /* Servicios */
 .services-section {
-    background-color: var(--gris-claro); /* Gris claro */
+    background-color: #eae2b7; /* Gris claro */
     padding: 40px 20px;
     color: var(--gris-oscuro); /* Gris oscuro */
 }
