@@ -157,7 +157,10 @@ nav a:hover {
 
 /* Servicios */
 .services-section {
-    background-color: var(--marmol-beige); 
+    background-image: url('../img/fono-servicio.jpg'); 
+    background-size: cover; /* Ajusta la imagen para que cubra toda la sección */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Mantiene la imagen fija mientras se desplaza */
     padding: 50px 20px;
     color: var(--gris-oscuro); 
     text-align: center;
@@ -167,6 +170,7 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .section-title {
     font-size: 2.8em;
