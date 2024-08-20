@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const items = [
-        { id: 1, type: 'Lápida', name: 'Lápida Clásica', img: 'https://via.placeholder.com/150' },
+        { id: 1, type: 'Lápida', name: 'Lápida Clásica', img: 'img/Imgcatalogo/1.jpg' },
         { id: 2, type: 'Tumba', name: 'Tumba Doble', img: 'https://via.placeholder.com/150' },
         // Añadir más ítems...
     ];

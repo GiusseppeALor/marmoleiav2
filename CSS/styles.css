@@ -48,10 +48,10 @@ nav a:hover {
 /* Bienvenidos */
 .hero-section {
     position: relative;
-    background-image: url('https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('../fondo-hero.jpg');
     background-size: cover;
     background-position: center;
-    padding: 60px 20px; 
+    padding: 90px 20px; 
     color: var(--marmol-blanco); 
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -311,4 +311,12 @@ nav a:hover {
         max-width: 80%;
         margin: 0 auto 1rem auto;
     }
+}
+
+/*Catalogo*/
+
+.img-catalogo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
