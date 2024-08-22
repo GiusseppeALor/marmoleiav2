@@ -1,4 +1,6 @@
 const catalogItems = [
+
+    // Lapidas
     {
         nombre: "Lápida Clásica",
         imagen: "lapida-clasica.jpg",
@@ -7,177 +9,65 @@ const catalogItems = [
     {
         nombre: "Tumba Moderna",
         imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
+        tipo: "lapida"
     },
+
+    // Tumbas
     {
         nombre: "Lápida Elegante",
         imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
+        tipo: "tumba"
     },
     {
         nombre: "Tumba Tradicional",
         imagen: "tumba-tradicional.jpg",
         tipo: "tumba"
     },
+
+    // Ovalines
     {
         nombre: "Lápida Clásica",
         imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
+        tipo: "ovalin"
     },
     {
         nombre: "Tumba Moderna",
         imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
+        tipo: "ovalin"
     },
+
+    // Adornos
     {
         nombre: "Lápida Elegante",
         imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
+        tipo: "adorno"
     },
     {
         nombre: "Tumba Tradicional",
         imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
+        tipo: "adorno"
     },
+    // Mousoleos
     {
-        nombre: "Lápida Clásica",
+        nombre: "mousoleo 1",
         imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
+        tipo: "mousoleo"
     },
     {
-        nombre: "Tumba Moderna",
+        nombre: "mousoleo 2",
         imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
+        tipo: "mousoleo"
     },
+    // Tableros para Cocina
     {
         nombre: "Lápida Elegante",
         imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
+        tipo: "cocina"
     },
     {
         nombre: "Tumba Tradicional",
         imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
-        tipo: "lapida"
-    },
-    {
-        nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
-        tipo: "tumba"
+        tipo: "cocina"
     },
 ];
 
