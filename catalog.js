@@ -1181,3 +1181,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+const carousel = document.querySelector('#carouselExample');
+const carouselInstance = new bootstrap.Carousel(carousel, {
+    interval: 1500, // 1.5 segundos
+    ride: 'carousel'
+});

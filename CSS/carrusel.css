@@ -1,0 +1,99 @@
+.carousel-section {
+    padding: 50px 20px;
+    background-color: #e4e4e4;
+    color: var(--gris-oscuro);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    display: none; /* Oculta todas las imágenes por defecto */
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item.active {
+    display: flex; /* Solo muestra la imagen activa */
+}
+
+.carousel-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.carousel-caption {
+    background: rgba(74, 74, 74, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 280px;
+    margin: 15px auto 0;
+    font-size: 0.9rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: var(--gris-oscuro);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: var(--gris-oscuro);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-item img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .carousel-caption {
+        max-width: 220px;
+        font-size: 0.85rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-item img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .carousel-caption {
+        max-width: 180px;
+        font-size: 0.8rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
