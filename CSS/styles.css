@@ -325,15 +325,18 @@ nav a:hover {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas en pantallas más pequeñas */
 }
 
 #filters button {
     background-color: var(--gris-claro);
     border: 1px solid var(--marmol-beige);
     padding: 10px 20px;
-    margin: 0 5px;
+    margin: 5px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #filters button:hover {
@@ -419,3 +422,42 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #filters button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    .catalog-item h3 {
+        font-size: 1rem;
+    }
+
+    .catalog-item p {
+        font-size: 0.8rem;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #filters button {
+        font-size: 0.8rem;
+        padding: 7px 10px;
+    }
+
+    #filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalog-items {
+        grid-template-columns: 1fr; /* Mostrar un ítem por fila en pantallas muy pequeñas */
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+}
