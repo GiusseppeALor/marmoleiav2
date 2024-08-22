@@ -349,8 +349,8 @@ nav a:hover {
 }
 
 .catalog-item {
-    background-color: var(--gris-claro);
-    border: 1px solid var(--marmol-beige);
+    background-color: var(--gris-medio);
+    border: 1px solid var(--gris-oscuro);
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -365,12 +365,12 @@ nav a:hover {
 .catalog-item h3 {
     font-size: 1.2rem;
     margin-top: 10px;
-    color: var(--marmol-beige);
+    color: var(--gris-oscuro);
 }
 
 .catalog-item p {
     font-size: 0.9rem;
-    color: var(--marmol-blanco);
+    color: var(--gris-oscuro);
 }
 
 /* Estilo para el modal */

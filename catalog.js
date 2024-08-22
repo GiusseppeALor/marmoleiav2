@@ -2,71 +2,71 @@ const catalogItems = [
 
     // Lapidas
     {
-        nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
+        nombre: "Lápida",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
+        nombre: "Lapida",
+        imagen: "img/Imgcatalogo/2.jpg",
         tipo: "lapida"
     },
 
     // Tumbas
     {
-        nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
+        nombre: "Tumba",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "tumba"
     },
     {
         nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "tumba"
     },
 
     // Ovalines
     {
         nombre: "Lápida Clásica",
-        imagen: "lapida-clasica.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "ovalin"
     },
     {
         nombre: "Tumba Moderna",
-        imagen: "tumba-moderna.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "ovalin"
     },
 
     // Adornos
     {
         nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "adorno"
     },
     {
         nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "adorno"
     },
     // Mousoleos
     {
         nombre: "mousoleo 1",
-        imagen: "lapida-clasica.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "mousoleo"
     },
     {
         nombre: "mousoleo 2",
-        imagen: "tumba-moderna.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "mousoleo"
     },
     // Tableros para Cocina
     {
         nombre: "Lápida Elegante",
-        imagen: "lapida-elegante.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "cocina"
     },
     {
         nombre: "Tumba Tradicional",
-        imagen: "tumba-tradicional.jpg",
+        imagen: "img/Imgcatalogo/1.jpg",
         tipo: "cocina"
     },
 ];
