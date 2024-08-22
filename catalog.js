@@ -47,17 +47,7 @@ const catalogItems = [
         imagen: "tumba-tradicional.jpg",
         tipo: "adorno"
     },
-    // Mousoleos
-    {
-        nombre: "mousoleo 1",
-        imagen: "lapida-clasica.jpg",
-        tipo: "mousoleo"
-    },
-    {
-        nombre: "mousoleo 2",
-        imagen: "tumba-moderna.jpg",
-        tipo: "mousoleo"
-    },
+
     // Tableros para Cocina
     {
         nombre: "Lápida Elegante",
@@ -73,7 +63,7 @@ const catalogItems = [
 
 function renderCatalog(filter) {
     const catalogContainer = document.getElementById('catalog-items');
-    catalogContainer.innerHTML = '';  // Limpia el contenedor
+    catalogContainer.innerHTML = '';
 
     const filteredItems = catalogItems.filter(item => filter === 'all' || item.tipo === filter);
 
@@ -87,7 +77,6 @@ function renderCatalog(filter) {
         catalogContainer.appendChild(itemElement);
     });
 
-    // Agregar eventos de clic a las imágenes para abrir el modal
     const images = document.querySelectorAll('.catalog-img');
     images.forEach(image => {
         image.addEventListener('click', (e) => {
@@ -104,8 +93,6 @@ function openModal(src, alt) {
     modal.style.display = "block";
     modalImg.src = src;
     captionText.innerHTML = alt;
-
-    // Cerrar el modal al hacer clic en el botón de cierre
     const closeBtn = document.getElementsByClassName("close")[0];
     closeBtn.onclick = function() {
         modal.style.display = "none";
@@ -113,8 +100,7 @@ function openModal(src, alt) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    renderCatalog('all');  // Muestra todos los ítems al cargar la página
-
+    renderCatalog('all'); 
     const filterButtons = document.querySelectorAll('#filters button');
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
