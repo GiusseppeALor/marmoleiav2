@@ -191,11 +191,35 @@ function renderCatalog(filter) {
         const itemElement = document.createElement('div');
         itemElement.className = 'catalog-item';
         itemElement.innerHTML = `
-            <img src="${item.imagen}" alt="${item.nombre}">
+            <img src="${item.imagen}" alt="${item.nombre}" class="catalog-img">
             <h3>${item.nombre}</h3>
         `;
         catalogContainer.appendChild(itemElement);
     });
+
+    // Agregar eventos de clic a las imágenes para abrir el modal
+    const images = document.querySelectorAll('.catalog-img');
+    images.forEach(image => {
+        image.addEventListener('click', (e) => {
+            openModal(e.target.src, e.target.alt);
+        });
+    });
+}
+
+function openModal(src, alt) {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImage");
+    const captionText = document.getElementById("caption");
+
+    modal.style.display = "block";
+    modalImg.src = src;
+    captionText.innerHTML = alt;
+
+    // Cerrar el modal al hacer clic en el botón de cierre
+    const closeBtn = document.getElementsByClassName("close")[0];
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
