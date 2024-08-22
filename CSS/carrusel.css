@@ -1,0 +1,61 @@
+.carousel-section {
+    padding: 50px 20px;
+    background-color: var(--marmol-blanco);
+    color: var(--gris-oscuro);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; /* Ajusta la altura mínima del carrusel */
+}
+
+.carousel-item img {
+    max-width: 300px; /* Tamaño máximo del ancho de la imagen */
+    max-height: 300px; /* Tamaño máximo de la altura de la imagen */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background: rgba(74, 74, 74, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px; /* Ajusta el ancho del texto para que coincida con el tamaño de la imagen */
+    margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Reduce el tamaño de los controles de navegación */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: var(--gris-oscuro);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: var(--gris-oscuro);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
