@@ -26,21 +26,18 @@
         </div>
     </header>
 
-    <main class="container my-5">
-        <section class="text-center mb-4">
-            <h2 class="text-2xl">Filtrar por tipo:</h2>
-            <select id="filter" class="form-select w-50 mx-auto">
-                <option value="all">Todos</option>
-                <option value="Lápida">Lápidas</option>
-                <option value="Tumba">Tumbas</option>
-                <!-- Añadir más opciones... -->
-            </select>
-        </section>
-
-        <section id="catalog-items" class="row img-catalogo">
-            <!-- Aquí se insertarán dinámicamente los ítems -->
-        </section>
-    </main>
+    <div id="catalog-container">
+        <div id="filters">
+            <button data-filter="all">Todos</button>
+            <button data-filter="lapida">Lápidas</button>
+            <button data-filter="tumba">Tumbas</button>
+        </div>
+    
+        <div id="catalog-items" class="catalog-items">
+            <!-- Los ítems del catálogo se generarán dinámicamente aquí -->
+        </div>
+    </div>
+    
 </body>
 <footer class="footer-exagerado">
     <div class="footer-container">
