@@ -12,7 +12,7 @@ const catalogItems = [
         tipo: "lapida"
     },
     {
-        nombre: "03'",
+        nombre: "03",
         imagen: "img/Imgcatalogo/3.jpg",
         tipo: "lapida"
     },
