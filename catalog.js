@@ -1122,12 +1122,12 @@ const catalogItems = [
 
     // Tableros para Cocina
     {
-        nombre: "tablero",
+        nombre: "231",
         imagen: "img/Imgcatalogo/1.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "tablero",
+        nombre: "232",
         imagen: "img/Imgcatalogo/1.jpg",
         tipo: "cocina"
     },
