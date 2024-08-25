@@ -2,7 +2,7 @@ const catalogItems = [
 
     // Lapidas
     {
-        nombre: "Lápida",
+        nombre: "01",
         imagen: "img/Imgcatalogo/1.jpg",
         tipo: "lapida"
     },
