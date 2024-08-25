@@ -7,662 +7,662 @@ const catalogItems = [
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "02",
         imagen: "img/Imgcatalogo/2.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "03'",
         imagen: "img/Imgcatalogo/3.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "04",
         imagen: "img/Imgcatalogo/4.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "05",
         imagen: "img/Imgcatalogo/5.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "06'",
         imagen: "img/Imgcatalogo/6.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "07",
         imagen: "img/Imgcatalogo/7.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "08",
         imagen: "img/Imgcatalogo/8.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "09",
         imagen: "img/Imgcatalogo/9.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "10",
         imagen: "img/Imgcatalogo/10.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "11",
         imagen: "img/Imgcatalogo/11.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "12",
         imagen: "img/Imgcatalogo/12.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "13",
         imagen: "img/Imgcatalogo/13.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "14",
         imagen: "img/Imgcatalogo/14.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "15",
         imagen: "img/Imgcatalogo/15.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "16",
         imagen: "img/Imgcatalogo/16.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "17",
         imagen: "img/Imgcatalogo/17.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "18",
         imagen: "img/Imgcatalogo/20.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "19",
         imagen: "img/Imgcatalogo/21.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "20",
         imagen: "img/Imgcatalogo/24.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "21",
         imagen: "img/Imgcatalogo/25.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "22",
         imagen: "img/Imgcatalogo/26.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "23",
         imagen: "img/Imgcatalogo/27.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "24",
         imagen: "img/Imgcatalogo/30.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "25",
         imagen: "img/Imgcatalogo/34.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "26",
         imagen: "img/Imgcatalogo/35.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "27",
         imagen: "img/Imgcatalogo/37.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "28",
         imagen: "img/Imgcatalogo/38.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "29",
         imagen: "img/Imgcatalogo/39.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "30",
         imagen: "img/Imgcatalogo/40.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "31",
         imagen: "img/Imgcatalogo/41.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "32",
         imagen: "img/Imgcatalogo/42.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "33",
         imagen: "img/Imgcatalogo/43.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "34",
         imagen: "img/Imgcatalogo/52.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "35",
         imagen: "img/Imgcatalogo/54.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "36",
         imagen: "img/Imgcatalogo/56.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "37",
         imagen: "img/Imgcatalogo/57.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "38",
         imagen: "img/Imgcatalogo/58.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "39",
         imagen: "img/Imgcatalogo/59.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "40",
         imagen: "img/Imgcatalogo/60.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "41",
         imagen: "img/Imgcatalogo/62.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "42",
         imagen: "img/Imgcatalogo/63.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "43",
         imagen: "img/Imgcatalogo/64.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "44",
         imagen: "img/Imgcatalogo/65.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "45",
         imagen: "img/Imgcatalogo/66.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "46",
         imagen: "img/Imgcatalogo/68.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "47",
         imagen: "img/Imgcatalogo/69.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "48",
         imagen: "img/Imgcatalogo/70.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "49",
         imagen: "img/Imgcatalogo/71.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "50",
         imagen: "img/Imgcatalogo/77.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "51",
         imagen: "img/Imgcatalogo/78.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "52",
         imagen: "img/Imgcatalogo/85.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "53",
         imagen: "img/Imgcatalogo/86.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "54",
         imagen: "img/Imgcatalogo/88.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "55",
         imagen: "img/Imgcatalogo/89.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "56",
         imagen: "img/Imgcatalogo/93.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "57",
         imagen: "img/Imgcatalogo/96.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "58",
         imagen: "img/Imgcatalogo/104.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "59",
         imagen: "img/Imgcatalogo/105.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "60",
         imagen: "img/Imgcatalogo/109.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "61",
         imagen: "img/Imgcatalogo/img1.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "62",
         imagen: "img/Imgcatalogo/img2.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "63",
         imagen: "img/Imgcatalogo/img3.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "64",
         imagen: "img/Imgcatalogo/img4.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "64",
         imagen: "img/Imgcatalogo/img6.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "65",
         imagen: "img/Imgcatalogo/img7.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "66",
         imagen: "img/Imgcatalogo/img9.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "67",
         imagen: "img/Imgcatalogo/img10.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "68",
         imagen: "img/Imgcatalogo/img13.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "69",
         imagen: "img/Imgcatalogo/img15.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "70",
         imagen: "img/Imgcatalogo/img16.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "71",
         imagen: "img/Imgcatalogo/img17.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "72",
         imagen: "img/Imgcatalogo/img18.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "73",
         imagen: "img/Imgcatalogo/img23.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "74",
         imagen: "img/Imgcatalogo/img24.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "75",
         imagen: "img/Imgcatalogo/img27.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "76",
         imagen: "img/Imgcatalogo/img29.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "77",
         imagen: "img/Imgcatalogo/img31.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "78",
         imagen: "img/Imgcatalogo/img32.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "79",
         imagen: "img/Imgcatalogo/img33.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "80",
         imagen: "img/Imgcatalogo/img35.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "81",
         imagen: "img/Imgcatalogo/img36.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "82",
         imagen: "img/Imgcatalogo/img37.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "83",
         imagen: "img/Imgcatalogo/img40.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "84",
         imagen: "img/Imgcatalogo/img43.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "85",
         imagen: "img/Imgcatalogo/img48.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "86",
         imagen: "img/Imgcatalogo/img50.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "87",
         imagen: "img/Imgcatalogo/img53.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "88",
         imagen: "img/Imgcatalogo/img58.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "89",
         imagen: "img/Imgcatalogo/img59.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "90",
         imagen: "img/Imgcatalogo/img60.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "91",
         imagen: "img/Imgcatalogo/img74.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "92",
         imagen: "img/Imgcatalogo/img76.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "93",
         imagen: "img/Imgcatalogo/img77.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "94",
         imagen: "img/Imgcatalogo/img79.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "95",
         imagen: "img/Imgcatalogo/img82.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "96",
         imagen: "img/Imgcatalogo/img83.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "97",
         imagen: "img/Imgcatalogo/img84.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "98",
         imagen: "img/Imgcatalogo/img93.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "99",
         imagen: "img/Imgcatalogo/img94.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "100",
         imagen: "img/Imgcatalogo/img95.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "101",
         imagen: "img/Imgcatalogo/img100.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "102",
         imagen: "img/Imgcatalogo/img105.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "103",
         imagen: "img/Imgcatalogo/img106.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "104",
         imagen: "img/Imgcatalogo/img107.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "105",
         imagen: "img/Imgcatalogo/img108.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "106",
         imagen: "img/Imgcatalogo/img109.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "107",
         imagen: "img/Imgcatalogo/img111.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "108",
         imagen: "img/Imgcatalogo/img112.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "109",
         imagen: "img/Imgcatalogo/img115.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "110",
         imagen: "img/Imgcatalogo/img117.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "111",
         imagen: "img/Imgcatalogo/img119.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "112",
         imagen: "img/Imgcatalogo/img120.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "113",
         imagen: "img/Imgcatalogo/img121.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "114",
         imagen: "img/Imgcatalogo/img122.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "115",
         imagen: "img/Imgcatalogo/img123.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "116",
         imagen: "img/Imgcatalogo/img129.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "117",
         imagen: "img/Imgcatalogo/img132.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "118",
         imagen: "img/Imgcatalogo/img134.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "119",
         imagen: "img/Imgcatalogo/img135.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "120",
         imagen: "img/Imgcatalogo/img137.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "121",
         imagen: "img/Imgcatalogo/img138.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "122",
         imagen: "img/Imgcatalogo/img139.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "123",
         imagen: "img/Imgcatalogo/img141.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "124",
         imagen: "img/Imgcatalogo/img142.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "125",
         imagen: "img/Imgcatalogo/img143.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "126",
         imagen: "img/Imgcatalogo/img144.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "127",
         imagen: "img/Imgcatalogo/img145.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "128",
         imagen: "img/Imgcatalogo/img148.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "129",
         imagen: "img/Imgcatalogo/img149.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "130",
         imagen: "img/Imgcatalogo/img150.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "131",
         imagen: "img/Imgcatalogo/img151.jpg",
         tipo: "lapida"
     },
     {
-        nombre: "Lapida",
+        nombre: "132",
         imagen: "img/Imgcatalogo/img152.jpg",
         tipo: "lapida"
     },
@@ -671,451 +671,451 @@ const catalogItems = [
 
     // Tumbas
     {
-        nombre: "Tumba",
+        nombre: "133",
         imagen: "img/Imgcatalogo/36.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "134 ",
         imagen: "img/Imgcatalogo/48.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "135 ",
         imagen: "img/Imgcatalogo/75.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "136 ",
         imagen: "img/Imgcatalogo/76.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "137 ",
         imagen: "img/Imgcatalogo/76.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "138 ",
         imagen: "img/Imgcatalogo/79.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "139 ",
         imagen: "img/Imgcatalogo/80.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "140 ",
         imagen: "img/Imgcatalogo/82.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "150 ",
         imagen: "img/Imgcatalogo/83.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "151 ",
         imagen: "img/Imgcatalogo/84.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "152 ",
         imagen: "img/Imgcatalogo/95.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "153 ",
         imagen: "img/Imgcatalogo/115.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "154 ",
         imagen: "img/Imgcatalogo/52.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "155 ",
         imagen: "img/Imgcatalogo/56.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "156 ",
         imagen: "img/Imgcatalogo/img80.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "157 ",
         imagen: "img/Imgcatalogo/img87.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "158 ",
         imagen: "img/Imgcatalogo/img88.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "159 ",
         imagen: "img/Imgcatalogo/img104.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "160 ",
         imagen: "img/Imgcatalogo/img114.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "161 ",
         imagen: "img/Imgcatalogo/img136.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "162 ",
         imagen: "img/Imgcatalogo/img140.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "163 ",
         imagen: "img/Imgcatalogo/img146.jpg",
         tipo: "tumba"
     },
     {
-        nombre: "Tumba ",
+        nombre: "164 ",
         imagen: "img/Imgcatalogo/img147.jpg",
         tipo: "tumba"
     },
 
     // Ovalines
     {
-        nombre: "Ovalin",
+        nombre: "165",
         imagen: "img/Imgcatalogo/1.jpg",
         tipo: "ovalin"
     },
     {
-        nombre: "ovalin",
+        nombre: "166",
         imagen: "img/Imgcatalogo/1.jpg",
         tipo: "ovalin"
     },
 
     // Adornos
     {
-        nombre: "Adorno",
+        nombre: "167",
         imagen: "img/Imgcatalogo/18.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "168",
         imagen: "img/Imgcatalogo/19.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "169",
         imagen: "img/Imgcatalogo/22.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "170",
         imagen: "img/Imgcatalogo/23.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "171",
         imagen: "img/Imgcatalogo/28.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "172",
         imagen: "img/Imgcatalogo/29.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "173",
         imagen: "img/Imgcatalogo/31.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "174",
         imagen: "img/Imgcatalogo/32.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "175",
         imagen: "img/Imgcatalogo/44.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "176",
         imagen: "img/Imgcatalogo/45.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "177",
         imagen: "img/Imgcatalogo/46.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "178",
         imagen: "img/Imgcatalogo/47.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "179",
         imagen: "img/Imgcatalogo/49.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "180",
         imagen: "img/Imgcatalogo/51.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "181",
         imagen: "img/Imgcatalogo/53.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "182",
         imagen: "img/Imgcatalogo/55.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "183",
         imagen: "img/Imgcatalogo/61.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "184",
         imagen: "img/Imgcatalogo/67.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "185",
         imagen: "img/Imgcatalogo/72.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "186",
         imagen: "img/Imgcatalogo/73.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "187",
         imagen: "img/Imgcatalogo/74.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "188",
         imagen: "img/Imgcatalogo/75.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "189",
         imagen: "img/Imgcatalogo/81.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "190",
         imagen: "img/Imgcatalogo/87.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "191",
         imagen: "img/Imgcatalogo/90.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "192",
         imagen: "img/Imgcatalogo/91.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "193",
         imagen: "img/Imgcatalogo/92.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "194",
         imagen: "img/Imgcatalogo/94.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "195",
         imagen: "img/Imgcatalogo/97.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "196",
         imagen: "img/Imgcatalogo/98.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "197",
         imagen: "img/Imgcatalogo/99.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "198",
         imagen: "img/Imgcatalogo/100.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "199",
         imagen: "img/Imgcatalogo/101.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "200",
         imagen: "img/Imgcatalogo/102.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "201",
         imagen: "img/Imgcatalogo/103.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "202",
         imagen: "img/Imgcatalogo/106.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "203",
         imagen: "img/Imgcatalogo/107.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "204",
         imagen: "img/Imgcatalogo/108.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "205",
         imagen: "img/Imgcatalogo/110.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "206",
         imagen: "img/Imgcatalogo/111.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "207",
         imagen: "img/Imgcatalogo/112.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "208",
         imagen: "img/Imgcatalogo/113.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "209",
         imagen: "img/Imgcatalogo/114.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "210",
         imagen: "img/Imgcatalogo/117.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "211",
         imagen: "img/Imgcatalogo/116.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "212",
         imagen: "img/Imgcatalogo/img12.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "213",
         imagen: "img/Imgcatalogo/img14.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "214",
         imagen: "img/Imgcatalogo/img26.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "215",
         imagen: "img/Imgcatalogo/img44.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "216",
         imagen: "img/Imgcatalogo/img57.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "217",
         imagen: "img/Imgcatalogo/img85.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "218",
         imagen: "img/Imgcatalogo/img86.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "219",
         imagen: "img/Imgcatalogo/img90.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "220",
         imagen: "img/Imgcatalogo/img91.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "221",
         imagen: "img/Imgcatalogo/img96.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "222",
         imagen: "img/Imgcatalogo/img118.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "223",
         imagen: "img/Imgcatalogo/img124.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "224",
         imagen: "img/Imgcatalogo/img125.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "225",
         imagen: "img/Imgcatalogo/img126.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "226",
         imagen: "img/Imgcatalogo/img127.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "227",
         imagen: "img/Imgcatalogo/img128.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "228",
         imagen: "img/Imgcatalogo/img130.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "229",
         imagen: "img/Imgcatalogo/img131.jpg",
         tipo: "adorno"
     },
     {
-        nombre: "Adorno",
+        nombre: "230",
         imagen: "img/Imgcatalogo/img133.jpg",
         tipo: "adorno"
     },
