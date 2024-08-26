@@ -28,6 +28,12 @@
     </header>
 
     <div id="catalog-container">
+        <!-- Barra de búsqueda -->
+        <div id="search-bar" class="mb-4">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar por número de artículo...">
+        </div>
+    
+        <!-- Filtros existentes -->
         <div id="filters">
             <button data-filter="all">Todos</button>
             <button data-filter="lapida">Lápidas</button>
@@ -36,16 +42,16 @@
             <button data-filter="adorno">Adornos</button>
             <button data-filter="cocina">Tableros para Cocina</button>
         </div>
-    
-        <div id="catalog-items" class="catalog-items">
-            <!-- Los ítems del catálogo se generarán dinámicamente aquí -->
-        </div>
+        
+        <div id="catalog-items" class="catalog-items"></div>
         <div id="imageModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="modalImage">
             <div id="caption"></div>
         </div>
     </div>
+    
+    
     
 </body>
 <footer class="footer-exagerado">

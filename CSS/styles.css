@@ -422,6 +422,21 @@ nav a:hover {
     cursor: pointer;
 }
 
+#search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid var(--marmol-beige);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     #filters button {

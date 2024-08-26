@@ -667,6 +667,22 @@ const catalogItems = [
         tipo: "lapida"
     },
 
+    {
+        nombre: "198",
+        imagen: "img/Imgcatalogo/100.jpg",
+        tipo: "lapida"
+    },
+    {
+        nombre: "199",
+        imagen: "img/Imgcatalogo/101.jpg",
+        tipo: "lapida"
+    },
+
+    {
+        nombre: "135 ",
+        imagen: "img/Imgcatalogo/75.jpg",
+        tipo: "lapida"
+    },
 
 
     // Tumbas
@@ -680,11 +696,7 @@ const catalogItems = [
         imagen: "img/Imgcatalogo/48.jpg",
         tipo: "tumba"
     },
-    {
-        nombre: "135 ",
-        imagen: "img/Imgcatalogo/75.jpg",
-        tipo: "tumba"
-    },
+
     {
         nombre: "136 ",
         imagen: "img/Imgcatalogo/76.jpg",
@@ -728,16 +740,6 @@ const catalogItems = [
     {
         nombre: "153 ",
         imagen: "img/Imgcatalogo/115.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "154 ",
-        imagen: "img/Imgcatalogo/52.jpg",
-        tipo: "tumba"
-    },
-    {
-        nombre: "155 ",
-        imagen: "img/Imgcatalogo/56.jpg",
         tipo: "tumba"
     },
     {
@@ -905,11 +907,6 @@ const catalogItems = [
         tipo: "adorno"
     },
     {
-        nombre: "188",
-        imagen: "img/Imgcatalogo/75.jpg",
-        tipo: "adorno"
-    },
-    {
         nombre: "189",
         imagen: "img/Imgcatalogo/81.jpg",
         tipo: "adorno"
@@ -952,16 +949,6 @@ const catalogItems = [
     {
         nombre: "197",
         imagen: "img/Imgcatalogo/99.jpg",
-        tipo: "adorno"
-    },
-    {
-        nombre: "198",
-        imagen: "img/Imgcatalogo/100.jpg",
-        tipo: "adorno"
-    },
-    {
-        nombre: "199",
-        imagen: "img/Imgcatalogo/101.jpg",
         tipo: "adorno"
     },
     {
@@ -1024,11 +1011,7 @@ const catalogItems = [
         imagen: "img/Imgcatalogo/116.jpg",
         tipo: "adorno"
     },
-    {
-        nombre: "212",
-        imagen: "img/Imgcatalogo/img12.jpg",
-        tipo: "adorno"
-    },
+
     {
         nombre: "213",
         imagen: "img/Imgcatalogo/img14.jpg",
@@ -1042,11 +1025,6 @@ const catalogItems = [
     {
         nombre: "215",
         imagen: "img/Imgcatalogo/img44.jpg",
-        tipo: "adorno"
-    },
-    {
-        nombre: "216",
-        imagen: "img/Imgcatalogo/img57.jpg",
         tipo: "adorno"
     },
     {
@@ -1133,11 +1111,15 @@ const catalogItems = [
     },
 ];
 
-function renderCatalog(filter) {
+function renderCatalog(filter, searchQuery = '') {
     const catalogContainer = document.getElementById('catalog-items');
     catalogContainer.innerHTML = '';
 
-    const filteredItems = catalogItems.filter(item => filter === 'all' || item.tipo === filter);
+    const filteredItems = catalogItems.filter(item => {
+        const matchesFilter = filter === 'all' || item.tipo === filter;
+        const matchesSearch = item.nombre.toLowerCase().includes(searchQuery.toLowerCase());
+        return matchesFilter && matchesSearch;
+    });
 
     filteredItems.forEach(item => {
         const itemElement = document.createElement('div');
@@ -1173,17 +1155,20 @@ function openModal(src, alt) {
 
 document.addEventListener('DOMContentLoaded', () => {
     renderCatalog('all'); 
+
     const filterButtons = document.querySelectorAll('#filters button');
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             const filter = button.getAttribute('data-filter');
-            renderCatalog(filter);
+            const searchQuery = document.getElementById('searchInput').value;
+            renderCatalog(filter, searchQuery); 
         });
     });
-});
 
-const carousel = document.querySelector('#carouselExample');
-const carouselInstance = new bootstrap.Carousel(carousel, {
-    interval: 1500, // 1.5 segundos
-    ride: 'carousel'
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', () => {
+        const searchQuery = searchInput.value;
+        const activeFilter = document.querySelector('#filters button.active')?.getAttribute('data-filter') || 'all';
+        renderCatalog(activeFilter, searchQuery);
+    });
 });
