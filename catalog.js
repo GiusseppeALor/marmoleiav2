@@ -1101,12 +1101,87 @@ const catalogItems = [
     // Tableros para Cocina
     {
         nombre: "231",
-        imagen: "img/Imgcatalogo/1.jpg",
+        imagen: "img/ImgCateCocina/1new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "232",
-        imagen: "img/Imgcatalogo/1.jpg",
+        nombre: "231",
+        imagen: "img/ImgCateCocina/2new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/3new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/4new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/5new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/6new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/7new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/8new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/9new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/10new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/11new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/12new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/13new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/14new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/15new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/16new.jpg",
+        tipo: "cocina"
+    },
+    {
+        nombre: "231",
+        imagen: "img/ImgCateCocina/17new.jpg",
         tipo: "cocina"
     },
 ];
