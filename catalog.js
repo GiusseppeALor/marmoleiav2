@@ -1105,82 +1105,77 @@ const catalogItems = [
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "232",
         imagen: "img/ImgCateCocina/2new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "233",
         imagen: "img/ImgCateCocina/3new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "234",
         imagen: "img/ImgCateCocina/4new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "235",
         imagen: "img/ImgCateCocina/5new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "236",
         imagen: "img/ImgCateCocina/6new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "237",
         imagen: "img/ImgCateCocina/7new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "238",
         imagen: "img/ImgCateCocina/8new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "239",
         imagen: "img/ImgCateCocina/9new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "240",
         imagen: "img/ImgCateCocina/10new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "241",
         imagen: "img/ImgCateCocina/11new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "242",
         imagen: "img/ImgCateCocina/12new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "243",
         imagen: "img/ImgCateCocina/13new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
-        imagen: "img/ImgCateCocina/14new.jpg",
-        tipo: "cocina"
-    },
-    {
-        nombre: "231",
+        nombre: "244",
         imagen: "img/ImgCateCocina/15new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "245",
         imagen: "img/ImgCateCocina/16new.jpg",
         tipo: "cocina"
     },
     {
-        nombre: "231",
+        nombre: "246",
         imagen: "img/ImgCateCocina/17new.jpg",
         tipo: "cocina"
     },
